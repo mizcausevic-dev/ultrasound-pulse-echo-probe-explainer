@@ -11,7 +11,7 @@
       "glyph": "antenna",
       "label": "Array coupling",
       "role": "path",
-      "x": 0.12,
+      "x": 0.14,
       "y": 0.32
     },
     {
@@ -19,7 +19,7 @@
       "glyph": "plate",
       "label": "Tissue section",
       "role": "structure",
-      "x": 0.373,
+      "x": 0.38,
       "y": 0.32
     },
     {
@@ -27,7 +27,7 @@
       "glyph": "laser",
       "label": "Timed acoustic pulse",
       "role": "path",
-      "x": 0.627,
+      "x": 0.62,
       "y": 0.32
     },
     {
@@ -35,7 +35,7 @@
       "glyph": "plate",
       "label": "Reflect at differing acoustic interfaces",
       "role": "structure",
-      "x": 0.88,
+      "x": 0.86,
       "y": 0.32
     },
     {
@@ -43,24 +43,24 @@
       "glyph": "plate",
       "label": "Echoes",
       "role": "structure",
-      "x": 0.2,
-      "y": 0.68
+      "x": 0.14,
+      "y": 0.7
     },
     {
       "id": "n6",
       "glyph": "plate",
       "label": "Estimate depth",
       "role": "structure",
-      "x": 0.52,
-      "y": 0.68
+      "x": 0.5,
+      "y": 0.7
     },
     {
       "id": "n7",
       "glyph": "plate",
       "label": "Illustrative image",
       "role": "structure",
-      "x": 0.84,
-      "y": 0.68
+      "x": 0.86,
+      "y": 0.7
     }
   ],
   "edges": [
