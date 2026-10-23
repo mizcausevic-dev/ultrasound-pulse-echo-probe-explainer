@@ -26,6 +26,12 @@ An interactive anatomy plate for Ultrasound Pulse-Echo Probe. Play, scrub, or ju
 
 Mechanism reference: National Academies/NCBI  -  diagnostic imaging (https://www.ncbi.nlm.nih.gov/books/NBK593686/)
 
+## Causal Pathway variant
+
+A focused editorial variant lives in [`causal-pathway/`](causal-pathway/): one primary input-to-output pathway with what changes and what is conserved at every boundary, plus a rendered video, a 30-second commercial, diagram, mind map, hero image and a three-register article.
+
+Live: https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/
+
 ## Run
 
 Open `index.html`. GitHub Pages serves this repository from the `pages` branch.

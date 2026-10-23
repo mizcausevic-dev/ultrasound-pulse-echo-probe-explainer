@@ -1,0 +1,19 @@
+{
+  "name": "upe-causal-pathway-render",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Frame-exact renderer for the Ultrasound Pulse-Echo Probe causal-pathway explainer and commercial (node-canvas + ffmpeg).",
+  "license": "MIT",
+  "scripts": {
+    "stills": "node render.js --module ../explainer.js --stills 0,150,300,510,750,1019 --outdir ./stills",
+    "score": "python3 score.py explainer ./explainer.wav && python3 score.py commercial ./commercial.wav",
+    "explainer": "node render.js --module ../explainer.js --out ../media/explainer.mp4 --audio ./explainer.wav",
+    "commercial": "node render.js --module ../commercial.js --out ../media/commercial.mp4 --audio ./commercial.wav",
+    "hero": "node hero.js ../media/hero.png && node hero.js ../media/poster-explainer.png --poster",
+    "diagrams": "node diagrams.js ../media",
+    "all": "npm run score && npm run explainer && npm run commercial && npm run hero && npm run diagrams"
+  },
+  "dependencies": {
+    "canvas": "^3.0.0"
+  }
+}

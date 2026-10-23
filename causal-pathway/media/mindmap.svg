@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 2000" width="2200" height="2000" role="img" aria-labelledby="t d">
+<title id="t">Mind map: ultrasound pulse-echo probe causal pathway explainer</title>
+<desc id="d">Orbital ring layout. Hub: the pulse-echo mechanism. Seven sectors: five stages, limits, and build facts.</desc>
+<rect width="2200" height="2000" fill="#0B1019"/>
+<text x="60" y="64" font-family="'JetBrains Mono', 'DejaVu Sans Mono', Menlo, monospace" font-size="16" font-weight="600" letter-spacing="2" fill="#8ea0b3">MIND MAP · ORBITAL RING LAYOUT</text>
+<text x="60" y="108" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="34" font-weight="700" fill="#e6edf5">Ultrasound Pulse-Echo Probe · Causal Pathway</text>
+<circle cx="1100" cy="1040" r="540" fill="none" stroke="#25324a" stroke-width="1" stroke-dasharray="3 8"/>
+<circle cx="1100" cy="1040" r="760" fill="none" stroke="#25324a" stroke-width="1" stroke-dasharray="3 8"/>
+<line x1="1100" y1="888" x2="1100" y2="640" stroke="#9aafc4" stroke-width="2" opacity="0.35"/>
+<rect x="1030" y="758" width="140" height="40" rx="20" fill="#111823" stroke="#9aafc4" stroke-width="2"/>
+<text x="1100" y="784" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf5">1 · Reveal</text>
+<line x1="1218.8383853351406" y1="945.2295501174725" x2="1412.732592987212" y2="790.6040792565066" stroke="#FFD166" stroke-width="2" opacity="0.35"/>
+<rect x="1234.8398484066238" y="856.6456719130118" width="140" height="40" rx="20" fill="#111823" stroke="#FFD166" stroke-width="2"/>
+<text x="1304.8398484066238" y="882.6456719130118" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf5">2 · Transmit</text>
+<line x1="1248.1890426516372" y1="1073.8231819613598" x2="1489.9711648727293" y2="1129.0083735825258" stroke="#00E5FF" stroke-width="2" opacity="0.35"/>
+<rect x="1285.4311129916377" y="1078.3004846965543" width="140" height="40" rx="20" fill="#111823" stroke="#00E5FF" stroke-width="2"/>
+<text x="1355.4311129916377" y="1104.3004846965543" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf5">3 · Reflect</text>
+<line x1="1165.950328345869" y1="1176.9472679211676" x2="1273.5534956470233" y2="1400.3875471609676" stroke="#9D4EDD" stroke-width="2" opacity="0.35"/>
+<rect x="1143.6775396488003" y="1256.0538433904337" width="140" height="40" rx="20" fill="#111823" stroke="#9D4EDD" stroke-width="2"/>
+<text x="1213.6775396488003" y="1282.0538433904337" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf5">4 · Receive</text>
+<line x1="1034.049671654131" y1="1176.9472679211676" x2="926.4465043529766" y2="1400.3875471609676" stroke="#9D4EDD" stroke-width="2" opacity="0.35"/>
+<rect x="916.3224603511997" y="1256.0538433904337" width="140" height="40" rx="20" fill="#111823" stroke="#9D4EDD" stroke-width="2"/>
+<text x="986.3224603511997" y="1282.0538433904337" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf5">5 · Image</text>
+<line x1="951.8109573483628" y1="1073.8231819613598" x2="710.0288351272706" y2="1129.0083735825258" stroke="#FFD166" stroke-width="2" opacity="0.35"/>
+<rect x="774.5688870083623" y="1078.3004846965543" width="140" height="40" rx="20" fill="#111823" stroke="#FFD166" stroke-width="2"/>
+<text x="844.5688870083623" y="1104.3004846965543" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf5">Limits</text>
+<line x1="981.1616146648595" y1="945.2295501174725" x2="787.267407012788" y2="790.6040792565067" stroke="#00E5FF" stroke-width="2" opacity="0.35"/>
+<rect x="825.1601515933762" y="856.6456719130118" width="140" height="40" rx="20" fill="#111823" stroke="#00E5FF" stroke-width="2"/>
+<text x="895.1601515933762" y="882.6456719130118" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf5">Build</text>
+<line x1="1041.2410606312621" y1="784.6739593299168" x2="978.8937890873342" y2="513.7554886952483" stroke="#9aafc4" stroke-width="1.5" opacity="0.5"/>
+<rect x="891.8937890873342" y="494.75548869524835" width="174" height="38" rx="8" fill="#111823" stroke="#9aafc4" stroke-width="1.5"/>
+<text x="978.8937890873342" y="519.7554886952483" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Housing + array</text>
+<line x1="1019.0375474737638" y1="790.8231927306697" x2="865.14708427504" y2="317.19704761568323" stroke="#9aafc4" stroke-width="1.5" opacity="0.5"/>
+<rect x="755.14708427504" y="298.19704761568323" width="220" height="38" rx="8" fill="#111823" stroke="#9aafc4" stroke-width="1.5"/>
+<text x="865.14708427504" y="323.19704761568323" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Matching layer + gel</text>
+<line x1="1158.7589393687379" y1="784.6739593299168" x2="1221.106210912666" y2="513.7554886952483" stroke="#9aafc4" stroke-width="1.5" opacity="0.5"/>
+<rect x="1106.5062109126661" y="494.75548869524835" width="229.2" height="38" rx="8" fill="#111823" stroke="#9aafc4" stroke-width="1.5"/>
+<text x="1221.106210912666" y="519.7554886952483" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Skin + tissue section</text>
+<line x1="1180.9624525262361" y1="790.8231927306698" x2="1334.85291572496" y2="317.19704761568335" stroke="#9aafc4" stroke-width="1.5" opacity="0.5"/>
+<rect x="1211.05291572496" y="298.19704761568335" width="247.6" height="38" rx="8" fill="#111823" stroke="#9aafc4" stroke-width="1.5"/>
+<text x="1334.85291572496" y="323.19704761568335" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Two acoustic interfaces</text>
+<line x1="1262.98633742534" y1="834.8672288183254" x2="1491.9137121296342" y2="546.7418097539887" stroke="#FFD166" stroke-width="1.5" opacity="0.5"/>
+<rect x="1395.7137121296341" y="527.7418097539887" width="192.39999999999998" height="38" rx="8" fill="#111823" stroke="#FFD166" stroke-width="1.5"/>
+<text x="1491.9137121296342" y="552.7418097539887" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">TX trigger, t = 0</text>
+<line x1="1244.335009140451" y1="821.3418075250188" x2="1568.2624342342872" y2="330.6127343368928" stroke="#FFD166" stroke-width="1.5" opacity="0.5"/>
+<rect x="1430.6624342342873" y="311.6127343368928" width="275.2" height="38" rx="8" fill="#111823" stroke="#FFD166" stroke-width="1.5"/>
+<text x="1568.2624342342872" y="336.6127343368928" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Piezo: voltage → vibration</text>
+<line x1="1336.2575363542273" y1="926.7464061681443" x2="1668.1001828365008" y2="767.6726560531714" stroke="#FFD166" stroke-width="1.5" opacity="0.5"/>
+<rect x="1567.3001828365009" y="748.6726560531714" width="201.6" height="38" rx="8" fill="#111823" stroke="#FFD166" stroke-width="1.5"/>
+<text x="1668.1001828365008" y="773.6726560531714" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Backing damps ring</text>
+<line x1="1345.293536107611" y1="947.9397960906882" x2="1895.7996400437767" y2="741.3313995308588" stroke="#FFD166" stroke-width="1.5" opacity="0.5"/>
+<rect x="1785.7996400437767" y="722.3313995308588" width="220" height="38" rx="8" fill="#111823" stroke="#FFD166" stroke-width="1.5"/>
+<text x="1895.7996400437767" y="747.3313995308588" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Short pressure pulse</text>
+<line x1="1361.9995778227496" y1="1039.5296589524928" x2="1639.9991298636824" y2="1039.0305947875806" stroke="#00E5FF" stroke-width="1.5" opacity="0.5"/>
+<rect x="1580.5991298636823" y="1020.0305947875806" width="118.8" height="38" rx="8" fill="#111823" stroke="#00E5FF" stroke-width="1.5"/>
+<text x="1639.9991298636824" y="1045.0305947875806" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Z = ρ · c</text>
+<line x1="1360.9452650267526" y1="1016.5145010673004" x2="1856.9404634363818" y2="971.8741252333906" stroke="#00E5FF" stroke-width="1.5" opacity="0.5"/>
+<rect x="1737.7404634363818" y="952.8741252333906" width="238.39999999999998" height="38" rx="8" fill="#111823" stroke="#00E5FF" stroke-width="1.5"/>
+<text x="1856.9404634363818" y="977.8741252333906" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">R = ((Z₂−Z₁)/(Z₂+Z₁))²</text>
+<line x1="1335.8493896895216" y1="1154.101119114057" x2="1586.1017955432887" y2="1275.1702455022546" stroke="#00E5FF" stroke-width="1.5" opacity="0.5"/>
+<rect x="1457.7017955432889" y="1256.1702455022546" width="256.79999999999995" height="38" rx="8" fill="#111823" stroke="#00E5FF" stroke-width="1.5"/>
+<text x="1586.1017955432887" y="1281.1702455022546" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Reflect + transmit split</text>
+<line x1="1324.913583923689" y1="1174.3796106803475" x2="1752.4210831374182" y2="1429.8034508284886" stroke="#00E5FF" stroke-width="1.5" opacity="0.5"/>
+<rect x="1628.6210831374183" y="1410.8034508284886" width="247.6" height="38" rx="8" fill="#111823" stroke="#00E5FF" stroke-width="1.5"/>
+<text x="1752.4210831374182" y="1435.8034508284886" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Energy ledger conserved</text>
+<line x1="1263.721792302216" y1="1244.546265488642" x2="1493.6821723297562" y2="1531.8478902971162" stroke="#9D4EDD" stroke-width="1.5" opacity="0.5"/>
+<rect x="1379.0821723297563" y="1512.8478902971162" width="229.2" height="38" rx="8" fill="#111823" stroke="#9D4EDD" stroke-width="1.5"/>
+<text x="1493.6821723297562" y="1537.8478902971162" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Same elements receive</text>
+<line x1="1281.0584140345586" y1="1229.3722543227766" x2="1687.4032516388352" y2="1654.375634253283" stroke="#9D4EDD" stroke-width="1.5" opacity="0.5"/>
+<rect x="1554.4032516388352" y="1635.375634253283" width="266" height="38" rx="8" fill="#111823" stroke="#9D4EDD" stroke-width="1.5"/>
+<text x="1687.4032516388352" y="1660.375634253283" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">A-line: amplitude vs time</text>
+<line x1="1157.841842137819" y1="1295.5353621284216" x2="1239.085345598572" y2="1654.4552600797929" stroke="#9D4EDD" stroke-width="1.5" opacity="0.5"/>
+<rect x="1110.685345598572" y="1635.4552600797929" width="256.79999999999995" height="38" rx="8" fill="#111823" stroke="#9D4EDD" stroke-width="1.5"/>
+<text x="1239.085345598572" y="1660.4552600797929" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">d = c · t / 2, c assumed</text>
+<line x1="1135.1691156442257" y1="1299.628837583199" x2="1214.0982759450071" y2="1882.3072975027444" stroke="#9D4EDD" stroke-width="1.5" opacity="0.5"/>
+<rect x="1099.4982759450072" y="1863.3072975027444" width="229.2" height="38" rx="8" fill="#111823" stroke="#9D4EDD" stroke-width="1.5"/>
+<text x="1214.0982759450071" y="1888.3072975027444" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Deeper: later, weaker</text>
+<line x1="1042.1581578621813" y1="1295.5353621284219" x2="980.7839894869384" y2="1566.675937211251" stroke="#9D4EDD" stroke-width="1.5" opacity="0.5"/>
+<rect x="884.5839894869384" y="1547.675937211251" width="192.39999999999998" height="38" rx="8" fill="#111823" stroke="#9D4EDD" stroke-width="1.5"/>
+<text x="980.7839894869384" y="1572.675937211251" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Scan line by line</text>
+<line x1="1064.8308843557743" y1="1299.628837583199" x2="997.9827179785818" y2="1793.1218189436304" stroke="#9D4EDD" stroke-width="1.5" opacity="0.5"/>
+<rect x="910.9827179785818" y="1774.1218189436304" width="174" height="38" rx="8" fill="#111823" stroke="#9D4EDD" stroke-width="1.5"/>
+<text x="997.9827179785818" y="1799.1218189436304" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Column per line</text>
+<line x1="936.2782076977838" y1="1244.546265488642" x2="762.558138003066" y2="1461.5839059689567" stroke="#9D4EDD" stroke-width="1.5" opacity="0.5"/>
+<rect x="643.358138003066" y="1442.5839059689567" width="238.39999999999998" height="38" rx="8" fill="#111823" stroke="#9D4EDD" stroke-width="1.5"/>
+<text x="762.558138003066" y="1467.5839059689567" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Brightness ∝ amplitude</text>
+<line x1="918.9415859654415" y1="1229.3722543227766" x2="574.792386769983" y2="1589.3240965088175" stroke="#9D4EDD" stroke-width="1.5" opacity="0.5"/>
+<rect x="487.79238676998295" y="1570.3240965088175" width="174" height="38" rx="8" fill="#111823" stroke="#9D4EDD" stroke-width="1.5"/>
+<text x="574.792386769983" y="1595.3240965088175" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Stable overview</text>
+<line x1="864.1506103104783" y1="1154.1011191140567" x2="532.8812385328297" y2="1314.3652864192968" stroke="#FFD166" stroke-width="1.5" opacity="0.5"/>
+<rect x="445.8812385328297" y="1295.3652864192968" width="174" height="38" rx="8" fill="#111823" stroke="#FFD166" stroke-width="1.5"/>
+<text x="532.8812385328297" y="1320.3652864192968" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Depth assumes c</text>
+<line x1="875.086416076311" y1="1174.3796106803472" x2="370.31852543841364" y2="1475.96438579502" stroke="#FFD166" stroke-width="1.5" opacity="0.5"/>
+<rect x="264.91852543841367" y="1456.96438579502" width="210.79999999999998" height="38" rx="8" fill="#111823" stroke="#FFD166" stroke-width="1.5"/>
+<text x="370.31852543841364" y="1481.96438579502" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Axial: pulse length</text>
+<line x1="838.0004221772504" y1="1039.5296589524928" x2="470.00101515903725" y2="1038.8690272521774" stroke="#FFD166" stroke-width="1.5" opacity="0.5"/>
+<rect x="364.6010151590373" y="1019.8690272521774" width="210.79999999999998" height="38" rx="8" fill="#111823" stroke="#FFD166" stroke-width="1.5"/>
+<text x="470.00101515903725" y="1044.8690272521774" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Lateral: beam width</text>
+<line x1="839.0547349732474" y1="1016.5145010673003" x2="253.42185010404694" y2="963.8065874320813" stroke="#FFD166" stroke-width="1.5" opacity="0.5"/>
+<rect x="120.42185010404694" y="944.8065874320813" width="266" height="38" rx="8" fill="#111823" stroke="#FFD166" stroke-width="1.5"/>
+<text x="253.42185010404694" y="969.8065874320813" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">No diagnosis, no settings</text>
+<line x1="863.7424636457727" y1="926.7464061681444" x2="613.056986140142" y2="806.5765623312899" stroke="#00E5FF" stroke-width="1.5" opacity="0.5"/>
+<rect x="489.25698614014203" y="787.5765623312899" width="247.6" height="38" rx="8" fill="#111823" stroke="#00E5FF" stroke-width="1.5"/>
+<text x="613.056986140142" y="812.5765623312899" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">34 s · 30 fps · 1,020 f</text>
+<line x1="854.7064638923888" y1="947.9397960906883" x2="388.46149831379955" y2="772.9551336981799" stroke="#00E5FF" stroke-width="1.5" opacity="0.5"/>
+<rect x="269.26149831379956" y="753.9551336981799" width="238.39999999999998" height="38" rx="8" fill="#111823" stroke="#00E5FF" stroke-width="1.5"/>
+<text x="388.46149831379955" y="778.9551336981799" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Pure function of frame</text>
+<line x1="937.0136625746599" y1="834.8672288183257" x2="764.0739610317418" y2="617.2072655034192" stroke="#00E5FF" stroke-width="1.5" opacity="0.5"/>
+<rect x="667.8739610317418" y="598.2072655034192" width="192.39999999999998" height="38" rx="8" fill="#111823" stroke="#00E5FF" stroke-width="1.5"/>
+<text x="764.0739610317418" y="623.2072655034192" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Player + MP4 + ad</text>
+<line x1="955.6649908595489" y1="821.3418075250188" x2="681.3182940964014" y2="405.7243271718104" stroke="#00E5FF" stroke-width="1.5" opacity="0.5"/>
+<rect x="603.5182940964014" y="386.7243271718104" width="155.6" height="38" rx="8" fill="#111823" stroke="#00E5FF" stroke-width="1.5"/>
+<text x="681.3182940964014" y="411.7243271718104" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#e6edf5">Source-linked</text>
+<circle cx="1100" cy="1040" r="150" fill="#111823" stroke="#00E5FF" stroke-width="3"/>
+<text x="1100" y="1014" text-anchor="middle" font-family="'JetBrains Mono', 'DejaVu Sans Mono', Menlo, monospace" font-size="13" font-weight="600" letter-spacing="2" fill="#8ea0b3">MECHANISM</text>
+<text x="1100" y="1046" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="24" font-weight="700" fill="#e6edf5">Pulse-echo</text>
+<text x="1100" y="1076" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#8ea0b3">trigger → pulse → echo →</text>
+<text x="1100" y="1098" text-anchor="middle" font-family="Inter, 'Segoe UI', 'DejaVu Sans', Arial, sans-serif" font-size="16" fill="#8ea0b3">time → depth → image</text>
+<text x="60" y="1970" font-family="'JetBrains Mono', 'DejaVu Sans Mono', Menlo, monospace" font-size="13" fill="#5c6b7d">Source brief p108 · conceptual map of the explainer, not a device specification · Kinetic Gain LLC 2026</text>
+</svg>

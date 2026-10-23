@@ -1,0 +1,207 @@
+{
+  "title": "How Pulse-Echo Ultrasound Works, Frame by Frame",
+  "subtitle": "A 34-second, code-driven explainer that tracks one acoustic pulse from electrical excitation to a B-mode image, and names what is conserved at every boundary",
+  "metaDescription": "A frame-locked explainer of pulse-echo ultrasound: excitation, reflection at impedance boundaries, time-of-flight depth, and image assembly.",
+  "slug": "pulse-echo-ultrasound-causal-pathway-explainer",
+  "tags": [
+    "Ultrasound",
+    "Medical Technology",
+    "Physics",
+    "Creative Coding",
+    "Technical Writing"
+  ],
+  "keywords": [
+    "how pulse-echo ultrasound works",
+    "pulse echo ultrasound explained",
+    "ultrasound depth calculation time of flight",
+    "acoustic impedance reflection",
+    "acoustic impedance mismatch ultrasound",
+    "why is gel used in ultrasound",
+    "piezoelectric transducer ultrasound",
+    "A-line vs B-mode ultrasound",
+    "ultrasound sound speed assumption 1540",
+    "ultrasound reflection coefficient formula",
+    "ultrasound attenuation with depth",
+    "ultrasound matching layer purpose",
+    "deterministic animation canvas pure function of frame",
+    "code-driven technical explainer video"
+  ],
+  "ogTitle": "Pulse-Echo Ultrasound: The Causal Pathway, Frame by Frame",
+  "ogDescription": "One acoustic pulse, five beats, 1,020 deterministic frames. What changes and what is conserved at every boundary from excitation to image.",
+  "twitterTitle": "Pulse-Echo Ultrasound, Frame by Frame",
+  "twitterDescription": "A 34-second code-driven explainer: excitation, impedance boundaries, time-of-flight depth, B-mode assembly. Every frame a pure function of its index.",
+  "heroAlt": "Dark-stage diagram of an ultrasound probe coupled to a tissue section, with a cyan acoustic pulse leaving the piezoelectric array, a gold excitation marker, and a violet echo trace returning to the elements.",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/#article",
+        "headline": "How Pulse-Echo Ultrasound Works, Frame by Frame",
+        "alternativeHeadline": "A 34-second, code-driven explainer that tracks one acoustic pulse from electrical excitation to a B-mode image, and names what is conserved at every boundary",
+        "description": "A frame-locked explainer of pulse-echo ultrasound: excitation, reflection at impedance boundaries, time-of-flight depth, and image assembly.",
+        "url": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/",
+        "mainEntityOfPage": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/",
+        "image": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/media/hero.png",
+        "datePublished": "2026-10-22",
+        "dateModified": "2026-10-22",
+        "inLanguage": "en",
+        "keywords": "how pulse-echo ultrasound works, acoustic impedance reflection, ultrasound depth calculation time of flight, piezoelectric transducer ultrasound, B-mode ultrasound",
+        "author": {
+          "@type": "Organization",
+          "name": "Kinetic Gain LLC",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Boston",
+            "addressRegion": "MA",
+            "addressCountry": "US"
+          }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Kinetic Gain LLC"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Pulse-echo ultrasound"
+          },
+          {
+            "@type": "Thing",
+            "name": "Acoustic impedance"
+          }
+        ],
+        "citation": {
+          "@type": "CreativeWork",
+          "name": "National Academies / NCBI, diagnostic imaging",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK593686/"
+        },
+        "video": [
+          {
+            "@id": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/#explainer"
+          },
+          {
+            "@id": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/#commercial"
+          }
+        ]
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/#explainer",
+        "name": "Ultrasound Pulse-Echo Probe: Causal Pathway (explainer)",
+        "description": "A 34-second, frame-locked conceptual animation of pulse-echo ultrasound in five beats: array coupling, transmit, reflection at impedance boundaries, echo receive and depth estimate, and B-mode image assembly. 1,020 frames at 30 fps, each a pure function of its index.",
+        "thumbnailUrl": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/media/hero.png",
+        "contentUrl": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/media/explainer.mp4",
+        "embedUrl": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/",
+        "uploadDate": "2026-10-22",
+        "duration": "PT34S",
+        "inLanguage": "en",
+        "isFamilyFriendly": true,
+        "publisher": {
+          "@type": "Organization",
+          "name": "Kinetic Gain LLC"
+        },
+        "hasPart": [
+          {
+            "@type": "Clip",
+            "name": "Reveal array coupling and tissue section",
+            "startOffset": 0,
+            "endOffset": 5,
+            "url": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/#frame-0"
+          },
+          {
+            "@type": "Clip",
+            "name": "Transmit a timed acoustic pulse",
+            "startOffset": 5,
+            "endOffset": 10,
+            "url": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/#frame-150"
+          },
+          {
+            "@type": "Clip",
+            "name": "Reflect at differing acoustic interfaces",
+            "startOffset": 10,
+            "endOffset": 17,
+            "url": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/#frame-300"
+          },
+          {
+            "@type": "Clip",
+            "name": "Receive echoes and estimate depth",
+            "startOffset": 17,
+            "endOffset": 25,
+            "url": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/#frame-510"
+          },
+          {
+            "@type": "Clip",
+            "name": "Build an illustrative image",
+            "startOffset": 25,
+            "endOffset": 34,
+            "url": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/#frame-750"
+          }
+        ]
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/#commercial",
+        "name": "Ultrasound Pulse-Echo Probe: Causal Pathway (30-second commercial)",
+        "description": "A 30-second product-release spot for the Ultrasound Pulse-Echo Probe causal-pathway explainer by Kinetic Gain LLC. Conceptual animation, not medical advice.",
+        "thumbnailUrl": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/media/hero.png",
+        "contentUrl": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/media/commercial.mp4",
+        "embedUrl": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/",
+        "uploadDate": "2026-10-22",
+        "duration": "PT30S",
+        "inLanguage": "en",
+        "isFamilyFriendly": true,
+        "publisher": {
+          "@type": "Organization",
+          "name": "Kinetic Gain LLC"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is the explainer a simulation of a real ultrasound machine?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. It is a conceptual animation of the pulse-echo mechanism, built from a mechanism brief that links to a National Academies/NCBI reference on diagnostic imaging. It does not model any specific device, and nothing in it should be read as a performance claim."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is every frame a pure function of its index?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "So the browser player and the rendered MP4 are identical by construction. If animation state accumulated over time, the two outputs could drift apart. With a pure draw function, frame 300 is frame 300 everywhere, which also makes review and bug reports precise."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What do the colors mean?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cyan #00E5FF is the acoustic path (the pulse out and the echo back). Gold #FFD166 is energy or actuation (the electrical excitation of an element). Violet #9D4EDD is measurement or state (received signal, timing, image data). The stage is #0B1019. Color is explanatory, not literal emission."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does the depth formula say sound speed is assumed?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Because d = c·t/2 converts a measured arrival time into a depth using a value of c that the machine does not measure. The soft-tissue imaging convention is approximately 1540 m/s. Where real tissue differs from that value, the reported depth differs from the true depth. The label keeps that assumption visible."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can my team reuse this in training or sales material?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, as a description of the mechanism. Do not overlay device specifications, performance figures, or clinical claims on it. The explainer is deliberately free of those, and adding them would turn a conceptual animation into an unsupported product claim."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

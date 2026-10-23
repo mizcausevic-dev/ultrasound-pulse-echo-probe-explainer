@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ultrasound Pulse-Echo Probe · Causal Pathway · code-driven motion explainer</title>
+<meta name="description" content="A 34-second, frame-locked motion explainer of the ultrasound pulse-echo pathway: electrical drive, acoustic pulse, reflection at impedance steps, echo timing, depth, image. What changes and what is conserved at every boundary.">
+<link rel="canonical" href="https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ultrasound Pulse-Echo Probe: the causal pathway, one boundary at a time">
+<meta property="og:description" content="Frame-locked, code-driven explainer. 1,020 frames. Every boundary states what changes and what is conserved. Source-linked, no invented numbers.">
+<meta property="og:image" content="https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/media/hero.png">
+<meta property="og:url" content="https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ultrasound Pulse-Echo Probe: the causal pathway">
+<meta name="twitter:description" content="A 34-second code-driven explainer. What changes and what is conserved at every boundary from trigger to image.">
+<meta name="twitter:image" content="https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/media/hero.png">
+<meta name="theme-color" content="#0B1019">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230B1019'/%3E%3Cpath d='M6 11h20M6 16h20M6 21h20' stroke='%2300E5FF' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<script type="application/ld+json" id="ld-json"></script>
+<style>
+:root { color-scheme: dark; --bg:#0B1019; --panel:#111823; --line:#25324a; --bone:#e6edf5; --dim:#8ea0b3; --dimmer:#5c6b7d; --path:#00E5FF; --energy:#FFD166; --sense:#9D4EDD; }
+* { box-sizing:border-box; }
+html, body { margin:0; background:var(--bg); color:var(--bone); font-family:Inter, "Segoe UI", system-ui, sans-serif; -webkit-font-smoothing:antialiased; }
+a { color:var(--path); }
+.mono { font-family:"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace; }
+.wrap { max-width:1280px; margin:0 auto; padding:18px 16px 40px; }
+.top { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-end; gap:12px; margin-bottom:12px; }
+.kicker { font-family:"JetBrains Mono", monospace; font-size:.72rem; letter-spacing:.12em; text-transform:uppercase; color:var(--dim); margin:0 0 6px; }
+h1 { font-size:clamp(1.5rem, 3vw, 2.2rem); line-height:1.1; margin:0; letter-spacing:-.02em; }
+h1 span { color:var(--path); }
+.nav { display:flex; flex-wrap:wrap; gap:8px; }
+.nav a { font-size:.85rem; text-decoration:none; color:var(--bone); border:1px solid var(--line); border-radius:999px; padding:8px 12px; }
+.nav a:hover { border-color:var(--path); }
+.stage { position:relative; background:#070b12; border:1px solid var(--line); border-radius:14px; overflow:hidden; }
+canvas { display:block; width:100%; aspect-ratio:16/9; background:var(--bg); }
+.transport { display:flex; align-items:center; gap:10px; padding:10px 12px; border-top:1px solid var(--line); background:var(--panel); flex-wrap:wrap; }
+button { font:inherit; cursor:pointer; }
+#play { background:var(--path); color:#062026; border:0; border-radius:999px; padding:0 18px; height:40px; font-weight:700; min-width:92px; }
+#scrub { flex:1 1 220px; height:40px; accent-color:var(--path); }
+.readout { font-family:"JetBrains Mono", monospace; font-size:.78rem; color:var(--dim); min-width:200px; }
+.frame-input { font-family:"JetBrains Mono", monospace; width:84px; background:#0b1019; color:var(--bone); border:1px solid var(--line); border-radius:8px; height:36px; padding:0 8px; }
+.stages { list-style:none; margin:12px 0 0; padding:0; display:grid; grid-template-columns:repeat(5, minmax(0,1fr)); gap:8px; }
+.stages button { width:100%; text-align:left; background:var(--panel); color:var(--bone); border:1px solid var(--line); border-radius:10px; padding:10px 12px; line-height:1.25; }
+.stages button[aria-current="step"] { border-color:var(--path); box-shadow:inset 0 0 0 1px var(--path); }
+.stages small { display:block; color:var(--dim); font-family:"JetBrains Mono", monospace; font-size:.7rem; margin-top:4px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:14px; margin-top:18px; }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:16px 18px; }
+.card h2 { font-size:1rem; margin:0 0 8px; }
+.card p, .card li { color:var(--dim); line-height:1.5; font-size:.93rem; }
+.card ul { margin:6px 0 0; padding-left:18px; }
+.swatch { display:inline-block; width:12px; height:12px; border-radius:3px; vertical-align:-1px; margin-right:6px; }
+.video-wrap video { width:100%; border-radius:10px; background:#000; display:block; }
+.badge { display:inline-block; font-family:"JetBrains Mono", monospace; font-size:.68rem; letter-spacing:.08em; text-transform:uppercase; color:var(--dim); border:1px solid var(--line); border-radius:999px; padding:4px 9px; margin:2px 4px 2px 0; }
+footer { margin-top:28px; color:var(--dimmer); font-size:.82rem; line-height:1.5; }
+button:focus-visible, input:focus-visible, a:focus-visible { outline:2px solid var(--path); outline-offset:2px; }
+.sr { position:absolute; left:-9999px; }
+@media (max-width:760px) { .stages { grid-template-columns:1fr 1fr; } .readout { min-width:0; } }
+@media (max-width:480px) { .stages { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <p class="kicker">Medical technology · p108 · editorial variant</p>
+      <h1>Ultrasound Pulse-Echo Probe <span>· Causal Pathway</span></h1>
+    </div>
+    <nav class="nav" aria-label="Sections">
+      <a href="#explainer">Explainer</a>
+      <a href="#commercial">Commercial</a>
+      <a href="#diagrams">Diagram &amp; mind map</a>
+      <a href="article/medium-article.md">Article</a>
+      <a href="https://github.com/mizcausevic-dev/ultrasound-pulse-echo-probe-explainer/tree/main/causal-pathway">Source</a>
+    </nav>
+  </div>
+
+  <section id="explainer" class="stage" aria-label="Frame-locked explainer">
+    <canvas id="plate" width="1920" height="1080" role="img" aria-label="Animated schematic of an ultrasound pulse-echo probe: electrical trigger, piezoelectric element, acoustic pulse, reflection at two tissue interfaces, echo reception, depth estimate, and an illustrative image. Use the transport controls to play or scrub."></canvas>
+    <div class="transport">
+      <button id="play" type="button" aria-pressed="false">Play</button>
+      <input id="scrub" type="range" min="0" max="1019" step="1" value="0" aria-label="Frame">
+      <label class="sr" for="frame">Frame number</label>
+      <input id="frame" class="frame-input" type="number" min="0" max="1019" value="0" aria-label="Go to frame">
+      <span id="readout" class="readout">f 0000 / 1019 · 0.00 s · stage 1</span>
+    </div>
+  </section>
+  <ol class="stages" id="stages" aria-label="Stages"></ol>
+
+  <div class="grid">
+    <div class="card">
+      <h2>How to read the plate</h2>
+      <p><span class="swatch" style="background:#00E5FF"></span><strong>Cyan</strong> is the primary path: the acoustic pulse out and the echo back. <span class="swatch" style="background:#FFD166"></span><strong>Gold</strong> is energy or actuation: the electrical drive. <span class="swatch" style="background:#9D4EDD"></span><strong>Violet</strong> is measurement or state: received signal, timing, image data. Color is explanatory, not literal emission. Physical parts live in the section view; mathematical diagrams live in the insets.</p>
+    </div>
+    <div class="card">
+      <h2>What this is</h2>
+      <p>A focused editorial variant of the <a href="../">existing mechanism brief</a>. The same frame index always draws the same picture: no clocks, no randomness. Keyboard: space plays, arrow keys step, 1 to 5 jump to a stage. Motion starts paused when your system prefers reduced motion.</p>
+      <p><span class="badge">34 s</span><span class="badge">30 fps</span><span class="badge">1,020 frames</span><span class="badge">pure function of frame</span><span class="badge">source-linked</span></p>
+    </div>
+    <div class="card">
+      <h2>What this is not</h2>
+      <ul>
+        <li>Not a measurement, a simulation result, or a product claim. No device geometry, settings, performance, certifications or proprietary internals are drawn or implied.</li>
+        <li>Not clinical instruction. Not for diagnosis, treatment, dosing, or device operation. No exposure settings are shown.</li>
+        <li>Depth from travel time assumes a sound speed. No universal diagnosis, no perfect resolution.</li>
+      </ul>
+    </div>
+  </div>
+
+  <section id="commercial" class="grid" style="margin-top:18px">
+    <div class="card video-wrap" style="grid-column:1 / -1">
+      <h2>Commercial (30 s) and rendered explainer (34 s)</h2>
+      <p>Both renders are frame-exact exports of the same code that draws the plate above. Score and pulse cues are synthesized from the frame timing.</p>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px,1fr)); gap:14px">
+        <div><video controls preload="metadata" poster="media/hero.png" src="media/commercial.mp4" aria-label="Thirty second commercial for the Ultrasound Pulse-Echo Probe causal pathway explainer"></video><p>Commercial · <a href="media/commercial.mp4" download>download MP4</a></p></div>
+        <div><video controls preload="metadata" poster="media/poster-explainer.png" src="media/explainer.mp4" aria-label="Rendered 34 second explainer"></video><p>Explainer render · <a href="media/explainer.mp4" download>download MP4</a></p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="diagrams" class="grid" style="margin-top:18px">
+    <div class="card" style="grid-column:1 / -1">
+      <h2>Causal pathway diagram</h2>
+      <p>One primary input-to-output pathway, with the change and the conserved quantity named at each boundary.</p>
+      <img src="media/diagram-causal-pathway.svg" alt="Diagram of the ultrasound pulse-echo causal pathway from electrical trigger to image, with what changes and what is conserved at each boundary" style="width:100%; height:auto; border-radius:10px; border:1px solid var(--line)">
+    </div>
+    <div class="card" style="grid-column:1 / -1">
+      <h2>Mind map</h2>
+      <p>Orbital ring layout: the mechanism at the hub, one sector per stage, limits and conservation on the outer ring.</p>
+      <img src="media/mindmap.svg" alt="Mind map of the pulse-echo probe explainer: hub with five stage sectors, conservation ledger, limits, and build facts" style="width:100%; height:auto; border-radius:10px; border:1px solid var(--line)">
+    </div>
+    <div class="card" style="grid-column:1 / -1">
+      <h2>Hero image</h2>
+      <img src="media/hero.png" alt="Hero image: a stylized ultrasound probe emitting a cyan pulse into a tissue section, with returning echoes and an A-line trace" style="width:100%; height:auto; border-radius:10px; border:1px solid var(--line)">
+    </div>
+  </section>
+
+  <footer>
+    Source brief p108. Mechanism reference: National Academies/NCBI, diagnostic imaging, <a href="https://www.ncbi.nlm.nih.gov/books/NBK593686/">NBK593686</a>. Reference scope: source-linked conceptual animation, not independent validation of a specific product or simulation. Camera moves, palette, cutaways and timing are original illustrative directions.
+    <br>Built by Kinetic Gain LLC · 2026 · <a href="https://github.com/mizcausevic-dev/ultrasound-pulse-echo-probe-explainer">repository</a>
+  </footer>
+</div>
+
+<script src="explainer.js"></script>
+<script>
+(function () {
+  "use strict";
+  var E = window.UPE;
+  var canvas = document.getElementById("plate");
+  var ctx = canvas.getContext("2d");
+  var play = document.getElementById("play");
+  var scrub = document.getElementById("scrub");
+  var frameIn = document.getElementById("frame");
+  var readout = document.getElementById("readout");
+  var stagesEl = document.getElementById("stages");
+  var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var frame = 0, playing = false, t0 = 0, f0 = 0, raf = 0;
+
+  function fit() {
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var w = canvas.clientWidth || 1280;
+    var W = Math.round(w * dpr), H = Math.round(W * 9 / 16);
+    if (canvas.width !== W || canvas.height !== H) { canvas.width = W; canvas.height = H; }
+  }
+  function draw() {
+    fit();
+    E.drawFrame(ctx, canvas.width, canvas.height, frame);
+    var si = E.stageIndex(frame);
+    readout.textContent = "f " + String(frame).padStart(4, "0") + " / 1019 · " + (frame / E.FPS).toFixed(2) + " s · stage " + (si + 1);
+    scrub.value = frame; frameIn.value = frame;
+    var btns = stagesEl.querySelectorAll("button");
+    for (var i = 0; i < btns.length; i++) { if (i === si) btns[i].setAttribute("aria-current", "step"); else btns[i].removeAttribute("aria-current"); }
+  }
+  function setFrame(f) { frame = Math.max(0, Math.min(E.FRAMES - 1, Math.round(f))); draw(); }
+  function tick(now) {
+    if (!playing) return;
+    var f = f0 + Math.floor((now - t0) / 1000 * E.FPS);
+    if (f >= E.FRAMES) { f = f % E.FRAMES; f0 = 0; t0 = now; }
+    if (f !== frame) setFrame(f);
+    raf = requestAnimationFrame(tick);
+  }
+  function start() { playing = true; play.textContent = "Pause"; play.setAttribute("aria-pressed", "true"); f0 = frame; t0 = performance.now(); raf = requestAnimationFrame(tick); }
+  function stop() { playing = false; play.textContent = "Play"; play.setAttribute("aria-pressed", "false"); cancelAnimationFrame(raf); }
+  play.addEventListener("click", function () { playing ? stop() : start(); });
+  scrub.addEventListener("input", function () { stop(); setFrame(+scrub.value); });
+  frameIn.addEventListener("change", function () { stop(); setFrame(+frameIn.value); });
+  E.STAGES.forEach(function (s, i) {
+    var li = document.createElement("li"), b = document.createElement("button");
+    b.type = "button";
+    b.innerHTML = "<strong>" + (i + 1) + ". " + s.title + "</strong><small>frames " + s.f0 + "–" + s.f1 + " · " + (s.f0 / E.FPS).toFixed(0) + "–" + ((s.f1 + 1) / E.FPS).toFixed(0) + " s</small>";
+    b.addEventListener("click", function () { stop(); setFrame(s.f0); if (!reduced) start(); });
+    li.appendChild(b); stagesEl.appendChild(li);
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA")) return;
+    if (e.code === "Space") { e.preventDefault(); playing ? stop() : start(); }
+    else if (e.key === "ArrowRight") { stop(); setFrame(frame + (e.shiftKey ? 30 : 1)); }
+    else if (e.key === "ArrowLeft") { stop(); setFrame(frame - (e.shiftKey ? 30 : 1)); }
+    else if (e.key >= "1" && e.key <= "5") { stop(); setFrame(E.STAGES[+e.key - 1].f0); }
+    else if (e.key === "Home") { stop(); setFrame(0); }
+    else if (e.key === "End") { stop(); setFrame(E.FRAMES - 1); }
+  });
+  window.addEventListener("resize", draw);
+  draw();
+  if (!reduced) start();
+  fetch("article/seo.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
+    if (j && j.jsonLd) document.getElementById("ld-json").textContent = JSON.stringify(j.jsonLd);
+  }).catch(function () {});
+})();
+</script>
+</body>
+</html>
