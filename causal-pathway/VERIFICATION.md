@@ -40,3 +40,11 @@ Date: 2026-10-22 (America/New_York). Workspace: Anthropic cloud session, Node v2
 
 - **Observed** this session's GitHub credential can push to `mizcausevic-dev/ultrasound-pulse-echo-probe-explainer` (public). It cannot create new repositories (`gh auth status`: token invalid), so a new private repository could not be created from here.
 - Branch and live-URL evidence: see the "Publication" section appended below after the push.
+
+## Publication (appended after push)
+
+- **Executed** `git push`: `causal-pathway`, `main` and `pages` all at commit `6f4cc04` on `origin` (`git ls-remote --heads origin` shows the three refs at `6f4cc046a7987618d821b57c8cd0013f156fcc90`).
+- **Verified** live URL `https://mizcausevic-dev.github.io/ultrasound-pulse-echo-probe-explainer/causal-pathway/` returned HTTP 404 at 22:24:21 ET (Pages build pending) and HTTP 200 at 22:24:36 ET with the new `<title>`.
+- **Verified** every asset serves from the live host with the expected content type and byte size: `explainer.js` 47,707 B (live sha256 `774cec89…b6ef6` equals local), `commercial.js`, `media/explainer.mp4` 3,582,496 B, `media/commercial.mp4` 3,178,406 B, `media/hero.png` 330,440 B, `media/poster-explainer.png`, both SVGs, `article/seo.json`, `article/medium-article.md`.
+- **Observed** in the user's Chrome (Claude in Chrome): the live page renders, the plate auto-plays and scrubs, both `<video>` elements load their posters and report 0:30 and 0:34 durations, and the console reported no errors or exceptions after a reload.
+- **Blocked** repository visibility: the brief asked for a private repository. This session's GitHub credential can push to the existing public repository but `gh auth status` reports the token invalid for account-level operations, so it could not create a new private repository or change visibility. Switching visibility is a one-click action in the repository Settings → Danger zone, and is a decision for the owner.
